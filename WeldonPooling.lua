@@ -5,9 +5,8 @@ require 'nn'
 local WeldonPooling, parent = torch.class('nn.WeldonPooling', 'nn.Module')
 
 -- n: number of top instances
-function WeldonPooling:__init(alpha, nMax, nMin)
+function WeldonPooling:__init(nMax, nMin)
     parent.__init(self)
-    self.alpha = alpha or 1
     self.nMax = nMax
     self.nMin = nMin or nMax
 

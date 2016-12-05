@@ -19,7 +19,7 @@ $ luarocks make rocks/weldon-scm-1.rockspec
 ```lua 
 require 'nn'
 require 'WeldonPooling'
-m = nn.WeldonPooling(1, 5, 2)
+m = nn.WeldonPooling(5, 2)
 m:forward(torch.ones(10,5,10,10))
 ```
 
