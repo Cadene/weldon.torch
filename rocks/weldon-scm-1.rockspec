@@ -7,7 +7,7 @@ source = {
 }
 
 description = {
-   summary = "Compact Bilinear Pooling for Torch7 nn",
+   summary = "Weldon Pooling for Torch7 nn",
    detailed = [[
 Torch7 Implementation of Weldon Pooling
    ]],
